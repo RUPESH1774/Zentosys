@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "stock": 50,
+    "category": "Electronics",
+    "vendorId": "663ae3f8a9d1b5dc10d86f34"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "price": 59.99,
+    "stock": 30,
+    "category": "Audio",
+    "vendorId": "663ae3f8a9d1b5dc10d86f34"
+  }
+]
