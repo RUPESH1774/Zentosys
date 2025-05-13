@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const fs = require('fs');
-const Product = require('./models/Product');  // Ensure correct path to your Product model
+const Product = require('./models/Product');  
 
 dotenv.config();
 
@@ -12,7 +12,7 @@ mongoose.connect(process.env.MONGO_URI || process.env.MONGO_URL, {
 })
 .then(() => {
   console.log('✅ MongoDB connected');
-  importData();  // Call the function to import data
+  importData();  
 })
 .catch(err => {
   console.error('❌ MongoDB connection error:', err);
