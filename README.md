@@ -10,6 +10,8 @@ Steps to Run the Code:
 
 4. The application will start running in your browser.
 
-5. & For e-commerce schema
+5. & For e-commerce schema 
 
 6. run command: "node ./server.js"
+
+7. & for testing API Run file "node ./seed.js"
